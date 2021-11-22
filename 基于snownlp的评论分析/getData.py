@@ -11,9 +11,10 @@ from fake_useragent import UserAgent
 #将报错信息省略
 requests.packages.urllib3.disable_warnings()
 num = 0
-tunnel = "tps220.kdlapi.com:15818"
-username = "t13721747636532"
-password = "7eufxodd"
+#这里采用的是使用快代理的隧道ip实现ip切换
+tunnel = "tps***.kdlapi.com:15818"
+username = "username
+password = "password"
 #对于ip进行切换，防止同一ip多次爬取后，ip被封
 def get_proxies():
     proxies = {
