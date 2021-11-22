@@ -1,0 +1,1 @@
+本次实验主要采用了中文文本分类如TextCNN，TextRNN和TextRCNN框架来实现评价学习，同时也用了开源的情感分析库snownlp进行了实验，实验结果分别在deep.csv和snownlp.csv中
